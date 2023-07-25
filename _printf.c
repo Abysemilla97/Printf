@@ -49,6 +49,12 @@ int _printf(const char *format, ...)
 				case '%':
 					num_of_characters_printed += my_putchar('%');
 					break;
+				case 'd':
+					num_of_characters_printed += decimal_specifier(va_arg(checklist, int));
+					break;
+				case 'i':
+					num_of_characters_printed += decimal_specifier(va_arg(checklist, int));
+					break;
 				default:
 					break;
 			}
