@@ -11,8 +11,7 @@ int binary_specifier(int decimal_num)
 {
 	int abby[32];
 	int j = 0;
-
-	num_of_characters_printed = 0;
+	int num_of_characters_printed = 0;
 
 	while (decimal_num >= 2) /* loop breaks when digit is < 2 */
 	{
