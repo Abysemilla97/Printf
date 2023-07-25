@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_string - a function that prints a string.
