@@ -1,8 +1,8 @@
-#include "main.h"
+include "main.h"
 
 /**
  * print_string - a function that prints a string.
- * @str: the string to print.
+ * @str: the string to be printed.
  *
  * Return: the number of characters to be printed.
  */
