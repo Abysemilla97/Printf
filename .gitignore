@@ -1,3 +1,2 @@
-#ignore files containing main.c
 *main.c
-a.out
+*.out
