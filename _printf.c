@@ -6,9 +6,9 @@
  * Author: Abigail Simon & Oku Umoren
  */
 
-#include <stdarg.h> 
-#include "main.h" 
-#include <stdio.h> 
+#include <stdarg.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
  * _printf - a function that produces output according to a format
@@ -36,7 +36,7 @@ int _printf(const char *format, ...)
 			num_of_characters_printed += my_putchar(format[i]);
 			i++;
 		}
-		else if (format[i] == '%' && format[i+1] !=' ')
+		else if (format[i] == '%' && format[i + 1] != ' ')
 		{
 			switch (format[i + 1]) /* evaluates each conversion specifier */
 			{
