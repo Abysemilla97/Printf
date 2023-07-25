@@ -23,7 +23,7 @@ int binary_specifier(int decimal_num)
 
 	abby[i] = decimal_num;
 
-	for (i; i >= 0; i--)
+	for (; i >= 0; i--)
 	{
 		num_of_characters_printed += my_putchar(abby[i] + '0');
 	}
