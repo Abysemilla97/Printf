@@ -10,22 +10,22 @@
 int binary_specifier(int decimal_num)
 {
 	int abby[32];
-	int i = 0;
+	int j = 0;
 
 	num_of_characters_printed = 0;
 
 	while (decimal_num >= 2) /* loop breaks when digit is < 2 */
 	{
-		abby[i] = decimal_num % 2;
+		abby[j] = decimal_num % 2;
 		decimal_num /= 2;
-		i++;
+		j++;
 	}
 
-	abby[i] = decimal_num;
+	abby[j] = decimal_num;
 
-	for (; i >= 0; i--)
+	for (; j >= 0; j--)
 	{
-		num_of_characters_printed += my_putchar(abby[i] + '0');
+		num_of_characters_printed += my_putchar(abby[j] + '0');
 	}
 
 	return (num_of_characters_printed);
