@@ -9,6 +9,7 @@
 int print_string(char *str)
 {
 	int num_of_characters_printed = 0;
+	int i = 0;
 
 	for (; str[i] != '\0'; i++)
 	{
