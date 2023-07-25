@@ -1,0 +1,30 @@
+.TH man 3 " JULY 25 2023" "0.01" "_printf man page"
+.SH NAME
+.B _printf
+- A simple implementation of the printf function
+.SH SYNOPSIS
+The #include "main.h" header is required to use this function.
+.SH DESCRIPTION
+The _printf function generates output in the format described below.
+The function writes its output to the standard output stream stdout.
+.SH USAGE
+To make use of the _printf function, preceed each of the below key characters known as conversion specifiers by the percentage, %, symbol.
+.RS 3
+%c: print characters
+.RS 0
+%s: print strings
+.RS 0
+%d: print signed decimal integers of max and min size of an int type
+.RS 0
+%i: print integers of max and min size of an int type
+.RS 0
+%b: print the binary form of a number
+.SH RETURN VALUES
+The _printf function returns an integer which the number of characters
+printed excluding the null byte of the string
+	.SH SEE ALSO
+.I printf(3)
+	.SH BUGS
+	No known bugs.
+	.SH AUTHOR
+	Abigail Simon and Oku Umoren
