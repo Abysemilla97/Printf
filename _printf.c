@@ -44,6 +44,9 @@ int _printf(const char *format, ...)
 				case 'i':
 					num_of_characters_printed += decimal_specifier(va_arg(checklist, int));
 					break;
+				case 'b':
+					num_of_characters_printed += binary_specifier(va_arg(checklist, int));
+					break;	
 				default:
 					break;
 			}
